@@ -1,0 +1,18 @@
+	//Iterates over the map, and the sets within the map
+
+	/*
+	for(auto map_iterator = nodeMap.begin(); map_iterator != nodeMap.end(); ++map_iterator)
+	{
+		//Print out the key
+		std::cout << map_iterator->first << ":" << std::endl;
+
+		//Print out each item in the set
+		for(auto set_iterator = map_iterator->second.begin(); 
+			set_iterator != map_iterator->second.end(); ++set_iterator)
+		{
+			std::cout << "-->  " << *set_iterator << std::endl;
+		}
+
+		std::cout << std::endl << std::endl;
+	}
+	*/
